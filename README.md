@@ -1,1 +1,1 @@
-## A Fundamental Plugin for every Minecraft Server!
+# A Fundamental Plugin for every Minecraft Server!
