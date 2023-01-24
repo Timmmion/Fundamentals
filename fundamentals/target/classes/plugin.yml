@@ -1,0 +1,45 @@
+name: fundamentals
+main: com.tim.main
+version: '0.1'
+api-version: 1.15
+author: timmmion
+commands:
+  tpa:
+    description: Send TPA-Request to another player
+  tpaaccept:
+    description: Accept the TPA-Request of another player
+  sethome:
+    description: Set your one and only home
+  home:
+    description: Teleport to your home
+  invsee:
+    description: Look into someones inventory
+  vanish:
+    description: Turn invisible for other people
+    permission: fundamentals.vanish
+    permission-message: You don't have permission!
+  heal:
+    description: A command to heal a player
+    permission: fundamentals.heal
+    permission-message: You don't have permission!
+  feed:
+    description: A command to feed a player
+    permission: fundamentals.feed
+    permission-message: You don't have permission!    
+permissions:
+  fundamentals.feed:
+    description: Allows you to feed players
+    default: op
+  fundamentals.heal:
+    description: Allows you to heal players
+    default: op
+  fundamentals.vanish:
+    description: Allows people to vanish
+    default: op
+  fundamentals.*:
+    description: Admin permission for fundamentals
+    default: op
+    children:
+      fundamentals.feed: true
+      fundamentals.heal: true
+      fundamentals.vanish: true
