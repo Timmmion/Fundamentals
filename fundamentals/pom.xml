@@ -75,7 +75,7 @@
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>2.3.1</version>
 					<configuration>
-						<outputDirectory>C:\Users\timst\Desktop\All\Plugin Test server\asd\plugins</outputDirectory>
+						<outputDirectory>C:\Users\timst\Desktop\Projects\fundamentals\fundamentals\target</outputDirectory>
 					</configuration>
 				</plugin>
 			</plugins>

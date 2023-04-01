@@ -70,7 +70,7 @@ public class tpaaccept implements CommandExecutor{
                                     pSendFinal.sendMessage(ChatColor.YELLOW + PREFIX + ChatColor.GRAY + "You were teleported to " + ChatColor.DARK_GRAY + pGetFinal.getName() + ChatColor.GRAY + "!");
                                 }else{
                                     pSendFinal.sendMessage(ChatColor.YELLOW + PREFIX + ChatColor.GRAY + "You moved and therefore were not teleported!");
-                                    pGetFinal.sendMessage(ChatColor.YELLOW + PREFIX + ChatColor.DARK_GRAY + pSendFinal.getName() + ChatColor.GRAY +" emil was not teleported to you because he/she moved!");
+                                    pGetFinal.sendMessage(ChatColor.YELLOW + PREFIX + ChatColor.DARK_GRAY + pSendFinal.getName() + ChatColor.GRAY +" was not teleported to you because he/she moved!");
                                 }
                             }
                         };task.runTaskLater(main.getPlugin(main.class), 100);

@@ -27,6 +27,6 @@ public class motdChanger implements Listener{
         int max = motds.size() - 1;
         int rand = (int)(Math.random()*(max-min)+min);  
 
-        e.setMotd(motds.get(rand));
+        e.setMotd("\u00A74\u00A7b" + motds.get(rand));
     }
 }

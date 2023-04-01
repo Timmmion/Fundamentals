@@ -1,0 +1,16 @@
+com\tim\commands\home\home.class
+com\tim\commands\stats\heal.class
+com\tim\commands\tpa\requestFileManager.class
+com\tim\commands\invsee\invsee.class
+com\tim\commands\motdchanger\motdFileManager.class
+com\tim\commands\home\sethome.class
+com\tim\commands\vanish\vanish.class
+com\tim\commands\tpa\tpaaccept.class
+com\tim\commands\stats\feed.class
+com\tim\commands\vanish\vanishManager.class
+com\tim\main.class
+com\tim\commands\tpa\tpaaccept$1.class
+com\tim\commands\home\home$1.class
+com\tim\commands\home\homeFileManager.class
+com\tim\commands\motdchanger\motdChanger.class
+com\tim\commands\tpa\tpa.class
